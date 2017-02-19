@@ -16,6 +16,27 @@
     <Filter Include="src">
       <UniqueIdentifier>{0a9ed2b8-d16b-410e-854f-35de197bccca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\cluster">
+      <UniqueIdentifier>{05d93a39-2dbd-4978-bf43-2e0b0f5ddf77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\computer">
+      <UniqueIdentifier>{c2186bfa-9444-4cb7-a414-558ffb280346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\controller">
+      <UniqueIdentifier>{6a80736f-45ef-475a-8b67-1280d9252f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\nameserver">
+      <UniqueIdentifier>{1efdb4c1-1280-48d4-87ee-bdcef43e5055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\api">
+      <UniqueIdentifier>{7a64a107-cd42-4fd1-b31a-4a3b1dcc7c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{752047cd-d1a7-4e5d-a214-0a209929100f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\nameserver\db">
+      <UniqueIdentifier>{5afbd272-d9bb-4a99-b5eb-b282a7abc54c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -27,6 +48,63 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\computer\Manager.h">
+      <Filter>src\computer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\computer\RpcAPI.h">
+      <Filter>src\computer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\computer\Service.h">
+      <Filter>src\computer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\controller\Manager.h">
+      <Filter>src\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="src\controller\RpcAPI.h">
+      <Filter>src\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="src\controller\Service.h">
+      <Filter>src\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\API.h">
+      <Filter>src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\JobAPI.h">
+      <Filter>src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\Service.h">
+      <Filter>src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nameserver\Manager.h">
+      <Filter>src\nameserver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nameserver\RpcAPI.h">
+      <Filter>src\nameserver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nameserver\Service.h">
+      <Filter>src\nameserver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Service.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckMemLeaks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\controller\Messages.h">
+      <Filter>src\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nameserver\Messages.h">
+      <Filter>src\nameserver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Utils.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nameserver\db\API.h">
+      <Filter>src\nameserver\db</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nameserver\db\Models.h">
+      <Filter>src\nameserver\db</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -34,6 +112,21 @@
     </ClCompile>
     <ClCompile Include="buzzitoan.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controller\RpcAPI.cpp">
+      <Filter>src\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controller\Manager.cpp">
+      <Filter>src\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nameserver\Manager.cpp">
+      <Filter>src\nameserver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nameserver\RpcAPI.cpp">
+      <Filter>src\nameserver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nameserver\db\API.cpp">
+      <Filter>src\nameserver\db</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
